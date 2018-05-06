@@ -1,0 +1,6 @@
+[submodule "Lacty.github.io"]
+	path = Lacty.github.io
+	url = https://github.com/Lacty/Lacty.github.io.git
+[submodule "public"]
+	path = public
+	url = https://github.com/Lacty/Lacty.github.io.git
