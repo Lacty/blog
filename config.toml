@@ -7,7 +7,7 @@ theme = "hugo-future-imperfect"
 
 preserveTaxonomyNames = true
 paginate = 5
-disqusShortname = "shortname"
+disqusShortname = "lacty-github-io"
 
 googleAnalytics = ""
 pluralizeListTitles = false
