@@ -89,10 +89,10 @@ Spacemacsの設定ファイル`.spacemacs`にClojureの設定を追加すると
 emacsを開いてコマンドを打ちます、`SPC`は__SpaceKey__の意  
 __f__ile __e__macs __d__otfile のように分かりやすくなっている
 
-2. `dotspacemacs/layers`関数内の`dotspacemacs-configuration-layers`に`clojure`を追加
+2. `dotspacemacs/layers`関数内の`dotspacemacs-configuration-layers`に`clojure`を追加  
 編集モードへの移行は`i`
 
-3. `SPC f e R`で設定をリロード
+3. `SPC f e R`で設定をリロード  
 編集モードからは`ESC`で抜けれます
 
 これでClojureをSpacemacsで書くための設定は済みました  
