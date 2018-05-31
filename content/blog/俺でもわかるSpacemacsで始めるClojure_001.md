@@ -90,10 +90,9 @@ emacsを開いてコマンドを打ちます、`SPC`は__SpaceKey__の意
 __f__ile __e__macs __d__otfile のように分かりやすくなっている
 
 2. `dotspacemacs/layers`関数内の`dotspacemacs-configuration-layers`に`clojure`を追加  
-編集モードへの移行は`i`
+編集モードへの移行は`i`、`ESC`で抜けれます
 
 3. `SPC f e R`で設定をリロード  
-編集モードからは`ESC`で抜けれます
 
 {{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic02.png" "pic02.png" "date" >}}
 
@@ -106,7 +105,43 @@ __f__ile __e__macs __d__otfile のように分かりやすくなっている
 lein new project-name
 ```
 
-Spacemacsから`SPC !`コマンドでshellが実行できます  
-{{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic03.png" "pic03.png" "date" >}}
+Spacemacsからは`SPC !`コマンドでshellが実行できます  
+
+# NeoTreeの起動
+<details open><summary>NeoTreeについて</summary>
+vimmerならお馴染み  
+ディレクトリ構成をツリー状に表示してくれるスグレモノ  
+</details>
+
+Spacemacsで作業する上でNeoTreeは欠かせません  
+起動したらまず最初に打ち込みましょう  
+```
+SPC f t
+```
+
+`lein`で作成した`test01`プロジェクトを開いた様子  
+{{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic04.png" "pic04.png" "date" >}}
 
 # nRELP接続とコードの実行
+<details open><summary>nREPLについて</summary>
+REPL(__R__ead __E__val __P__rint __L__oop)  
+nREPL is __n__etwork REPL (Githubより  
+読んで評価して表示してを繰り返す  
+</details>
+
+俺氏にはよくわからないので実際に触ってみる  
+
+1. nREPL接続  
+__.clj__ファイルを開いた状態でコマンドを実行してください  
+```
+SPC m s i
+```
+
+2. REPLへバッファを切り替え  
+`SPC m s s`コマンドでコードとREPLを切り替えできます  
+
+{{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic05.png" "pic05.png" "date" >}}
+
+これでClojureをSpacemacsで実行できるようになりました  
+他にもSpacemacsでできることはたくさんありますが、今回はこのへんで  
+お疲れ様でした。
