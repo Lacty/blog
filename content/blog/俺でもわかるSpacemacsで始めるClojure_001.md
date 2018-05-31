@@ -1,6 +1,6 @@
 +++
 title        = "#1 俺でもわかるSpacemacsで始めるClojure"
-description  = "Spacemacsのインストールと設定、プロジェクトの作成からビルド、REPLの起動まで"
+description  = "Spacemacsのインストールと設定、プロジェクトの作成からREPLの起動まで"
 
 author       = "やない"
 date         = "2018-05-28T22:33:39+09:00"
@@ -108,3 +108,5 @@ lein new project-name
 
 Spacemacsから`SPC !`コマンドでshellが実行できます  
 {{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic03.png" "pic03.png" "date" >}}
+
+# nRELP接続とコードの実行
