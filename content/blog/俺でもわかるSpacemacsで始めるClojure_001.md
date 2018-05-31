@@ -95,5 +95,16 @@ __f__ile __e__macs __d__otfile のように分かりやすくなっている
 3. `SPC f e R`で設定をリロード  
 編集モードからは`ESC`で抜けれます
 
+{{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic02.png" "pic02.png" "date" >}}
+
 これでClojureをSpacemacsで書くための設定は済みました  
 次はClojureのプロジェクトを作成しましょう。
+
+# Clojureプロジェクトの作成
+プロジェクトの作成には`lein`を使用します  
+```
+lein new project-name
+```
+
+Spacemacsから`SPC !`コマンドでshellが実行できます  
+{{< img-fit "4u" "俺でもわかるSpacemacsで始めるClojure_001/pic03.png" "pic03.png" "date" >}}
